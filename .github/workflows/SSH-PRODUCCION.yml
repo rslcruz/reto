@@ -1,4 +1,4 @@
-name: Deploy via SSH
+name: PRODUCCION SSH
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
       - produccion
 jobs:
   deploy:
-    name: Deploy
+    name: Deploy-prod
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy via SSH
+    - name: Deploy via SSH produccion
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SSH_HOST_PRODUCCION }}
