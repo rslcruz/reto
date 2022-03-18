@@ -17,8 +17,8 @@ jobs:
           server_port: 465
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
-          subject: Message from github actions.
+          subject: Mensaje de github actions.
           to: rcruzortiz@outlook.com
           from: Git Hub
           secure: true
-          body: workflow for ${{github.repository}} completed successfully!
+          body: workflow de ${{github.repository}} Se ha actualizado correctamente la aplicación !
