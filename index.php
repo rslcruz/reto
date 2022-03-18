@@ -26,7 +26,7 @@
       <h2>GitHub Actions</h2>
       <br>
       <br>
-      <h2>GitHub Actions Prueba</h2>
+      <h2>GitHub Actions Prueba2</h2>
       <br>
       
         <br>
